@@ -1,0 +1,33 @@
+.question-preview ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-width: 600px;
+}
+
+.radio-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.radio-item input[type="radio"] {
+  /* fixe Breite, damit alle Buttons in einer Linie sind */
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.radio-item span {
+  /* fester linker Rand, damit Radio-Buttons nicht wandern */
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 620px; /* maximal sichtbare Textlänge */
+}
+
+div {
+  width: 100%;
+}

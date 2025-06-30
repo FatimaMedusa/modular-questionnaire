@@ -1,0 +1,26 @@
+.question-editor {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    font-weight: 600;
+    margin-top: 1rem;
+    display: block;
+  }
+
+  .add-button {
+    background-color: #4caf50;
+    color: white;
+    &:hover {
+      background-color: #449d48;
+    }
+  }
+
+  .save-button {
+    background-color: #007bff;
+    color: white;
+    &:hover {
+      background-color: #005dc1;
+    }
+  }
+}
